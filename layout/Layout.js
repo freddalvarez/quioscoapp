@@ -1,10 +1,10 @@
 import Head from 'next/head'
-import Sidebar from '@/components/Sidebar'
+import Sidebar from '../components/Sidebar'
 import Modal from 'react-modal'
-import useQuiosco from '@/hooks/useQuiosco';
-import ModalProducto from '@/components/ModalProducto';
+import useQuiosco from '../hooks/useQuiosco';
+import ModalProducto from '../components/ModalProducto';
 import { ToastContainer } from 'react-toastify';
-import Pasos from '@/components/pasos';
+import Pasos from '../components/Pasos';
 
 import 'react-toastify/dist/ReactToastify.css'
 
